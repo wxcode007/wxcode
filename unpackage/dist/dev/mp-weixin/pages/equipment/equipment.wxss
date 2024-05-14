@@ -1,0 +1,13 @@
+
+	/* 搜索栏样式 */
+
+
+	/* 设备管理样式 */
+.bg-blue {
+		margin: 0 20rpx;
+		border-radius: 10rpx;
+}
+.bg-pink {
+		margin: 0 20rpx;
+		border-radius: 10rpx;
+}

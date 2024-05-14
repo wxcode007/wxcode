@@ -4,7 +4,7 @@
 			"path": "pages/home/home",
 			"style": 
 			{
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "水计量微信小程序"
 			}
 		},
 		{
@@ -20,6 +20,14 @@
 			"style" : 
 			{
 				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{//用来测试
+			"path" : "pages/component/bottomButton",
+			"style" : 
+			{
+				"navigationBarTitleText" : "底部按钮",
 				"enablePullDownRefresh" : false
 			}
 		}

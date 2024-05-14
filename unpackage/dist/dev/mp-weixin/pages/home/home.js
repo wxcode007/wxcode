@@ -1,5 +1,10 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
+if (!Array) {
+  const _component_uni_view = common_vendor.resolveComponent("uni-view");
+  const _component_uni_button = common_vendor.resolveComponent("uni-button");
+  (_component_uni_view + _component_uni_button)();
+}
 const _sfc_main = {
   __name: "home",
   setup(__props) {

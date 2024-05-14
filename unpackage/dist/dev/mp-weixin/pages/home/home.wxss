@@ -23,37 +23,35 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.one {
-  color: seagreen;
-  font-size: 24rpx;
+.ssk {
+  background-color: deepskyblue;
+  height: 50rpx;
 }
-.two {
-  color: mediumpurple;
-  font-size: 10rpx;
+.bg-cyanONE {
+  height: 300rpx;
+  width: 100%;
+  background-color: indianred;
 }
-
-/* .content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.bg-blueTWO {
+  height: 550rpx;
+  width: 100%;
+  background-color: skyblue;
 }
-
-.logo {
-	height: 200rpx;
-	width: 200rpx;
-	margin-top: 200rpx;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50rpx;
+.bg-blueTWO .bg-cyan1 {
+  width: 48%;
+  height: 500rpx;
+  background-color: yellowgreen;
+  margin-right: 10rpx;
 }
-
-.text-area {
-	display: flex;
-	justify-content: center;
+.bg-blueTWO .bg-blue2 {
+  width: 48%;
+  height: 500rpx;
+  background-color: papayawhip;
+  margin-left: 10rpx;
 }
-
-.title {
-	font-size: 36rpx;
-	color: #8f8f94;
-} */
+.cu-btn {
+  display: flex;
+  text-align: center;
+  margin: 0 170rpx;
+  border-radius: 13rpx;
+}
