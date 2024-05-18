@@ -23,6 +23,16 @@
 				"enablePullDownRefresh" : false
 			}
 		},
+		{
+			"path" : "pages/my/myOrder",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的订单",
+				"enablePullDownRefresh" : false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#007aff" 
+			}
+		},
 		{//用来测试
 			"path" : "pages/component/bottomButton",
 			"style" : 
