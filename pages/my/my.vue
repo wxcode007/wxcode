@@ -52,7 +52,7 @@ const contentList = [
 const handleClick = (id) => {
   if (id === 1) {
     uni.navigateTo({
-      url: "/pages/my/myAmount",
+      url: "/pages/my/rechargeAmount",
     });
   } else if (id === 2) {
     uni.navigateTo({

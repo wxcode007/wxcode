@@ -33,6 +33,17 @@
 				"navigationBarBackgroundColor": "#007aff" 
 			}
 		},
+		{
+			"path" : "pages/my/rechargeAmount",
+			"style" : 
+			{
+				"navigationBarTitleText" : "充值",
+				"enablePullDownRefresh" : false,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#007aff" 
+			}
+		},
+		
 		{//用来测试
 			"path" : "pages/component/bottomButton",
 			"style" : 
