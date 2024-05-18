@@ -32,6 +32,32 @@
 			}
 		}
 	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+		  {
+			"pagePath": "pages/home/home",
+			// "iconPath": "static/tabbar/home.png",
+			// "selectedIconPath": "static/tabbar/home_selected.png",
+			"text": "首页"
+		  },
+		  {
+			"pagePath": "pages/equipment/equipment",
+			// "iconPath": "static/tabbar/equipment.png",
+			// "selectedIconPath": "static/tabbar/equipment_selected.png",
+			"text": "设备管理"
+		  },
+		  {
+			"pagePath": "pages/my/my",
+			// "iconPath": "static/tabbar/my.png",
+			// "selectedIconPath": "static/tabbar/my_selected.png",
+			"text": "我的"
+		  }
+		]
+	  },
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
